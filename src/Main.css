@@ -1,0 +1,137 @@
+.main .result {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.result {
+  text-align: center;
+}
+.nav {
+  display: flex;
+  border: 3px solid rgb(190, 184, 184);
+  margin: 0 auto;
+  width: 60%;
+  justify-content: space-around;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  max-width: 300px;
+
+}
+.nav h1 {
+  text-align: start;
+  font-size: 100%;
+  color: white;
+}
+.navp {
+  border: 1px solid white;
+  width: 30%;
+  border-radius: 10px;
+  background-color: white;
+}
+.navp h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(30, 30, 88);
+}
+.nav h4 {
+  font-size: 50px;
+  height: 0px;
+  margin-top: 0%;
+  margin-bottom: 50px;
+  text-align: center;
+  color: rgb(30, 30, 88);
+}
+.result {
+  padding-top: 10%;
+  justify-content: space-between;
+}
+.img1 img {
+  border: 10px solid red;
+  background-color: white;
+  border-radius: 100px;
+  width: 60%;
+  padding: 15px 15px;
+}
+.img2 img {
+  border: 10px solid yellow;
+  background-color: white;
+  border-radius: 100px;
+  width: 35%;
+  padding: 15px 20px;
+}
+.img1 h4 {
+  color: white;
+}
+.img2 h4 {
+  color: white;
+}
+.you {
+  font-size: 20px;
+  margin-top: 2%;
+  color: white;
+}
+@media( max-width:1071px ){
+  .you{
+    margin-top: 0%;
+  }
+}
+.you h1{
+
+}
+@media( max-width:1071px ){
+  .you h1{
+    margin-top: 5%;
+  }
+}
+.you button {
+  width: 40%;
+  height: 40px;
+  border-radius: 10px;
+  color: rgb(18, 18, 66);
+  font-family: sans-serif;
+  font-size: 15px;
+  max-width: 200px;
+}
+.you button:hover{
+  background-color: rgba(44, 96, 155, 0.884);
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media( max-width:1071px ){
+  .you button{
+    margin-top: 0%;
+  }
+}
+.last  {
+  text-decoration: none;
+  border: 1px solid rgb(12, 2, 2);
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 2%;
+  font-size: 25px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(7, 7, 43);
+  /* border-color: white; */
+  /* margin-top: 5%; */
+  max-width: 20%;
+}
+.last a{
+  text-decoration: none;
+  color: white;
+  max-width: 20%;
+}
+.last:hover{
+  background-color: rgb(9, 10, 78);
+  font-size: 28px;
+  width: 35%;
+
+}
+@media( max-width:1071px ){
+  .last {
+    margin-top: 5%;
+  }
+}
