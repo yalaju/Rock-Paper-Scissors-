@@ -65,13 +65,13 @@ const Main = () => {
         img2: scissors,
         resultText: "YOU WIN",
       });
-    } else if (computer == "paper" && personal == "rock") {
+    } else if (personal == "paper" && computer == "rock") {
       setData({
         ...data,
         score: data.score - 1,
         img1: paper,
         img2: rock,
-        resultText: "YOU LOSE",
+        resultText: "YOU WIN",
       });
     } else if (personal == "scissors" && computer == "paper") {
       setData({
